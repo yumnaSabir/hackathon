@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body{
+	background:#222;
+	font-family:'Work Sans',sans-serif;
+	font-weight:800;
+	opacity:1.0;
+	padding-bottom:-10px;
+	font-size:30px;
+	background-color:white;
+}
+.container{
+	width: 80%;
+	margin:0 auto;
+	padding:0;
+	background-color:white;
+	
+	
+}
+.logo{
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+header{
+	background:#55d6aa;
+}
+
+header::after{
+	content:'';
+	display:table;
+	clear:both;
+}
+nav{
+	float:right;
+}
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	padding-bottom:-10px;
+}
+nav li{
+	padding-top:30px;
+	margin-left:70px;
+	position:relative;
+	display:inline-block;
+}
+
+nav a{
+	color:#444;
+	text-decoration:none;
+	font-size:20px;
+}
+
+nav a:hover{
+	color:#000;
+}
+
+nav a::before{
+	top:0;
+	width:0%;
+	height:5px;
+	position:absolute;
+	content:'';
+	display:block;
+	background-color:#444;
+	transition: all ease-in-out 190ms;
+	
+}
+
+nav a:hover::before{
+	width:100%;
+	
+}
+/*.para{
+	border:5px;
+	border-style:dashed;
+	border-color:blue;
+	background:url('Images/home/back.jpg');
+	font-size:30px;
+}*/
+
+footer{
+	background-color:black;
+	color:white;
+}
+
+.blog{
+	padding:50px;
+	margin:23px;
+	background: url ('../../Images/blog/backg.jpg') no-repeat;
+	background-size:cover;
+}
+
+.button{
+	background-color:black;
+	color:white;
+	padding:15px;
+}
+
